@@ -2,7 +2,7 @@
 
 #Everthing in shell is considered as string
 NUMBER1=100
-NUmBER2=200
+NUMBER2=200
 
 SUM=$(($NUMBER1+$NUMBER2))
 
