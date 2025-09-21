@@ -11,4 +11,4 @@ echo "SUM is: ${SUM}"
 #Arrays: 
 LEADERS=("Modi" "Putin" "Trump")
 
-echo "All Leaders: ${LEADERS}[@]"
+echo "All Leaders: ${LEADERS[@]}"
