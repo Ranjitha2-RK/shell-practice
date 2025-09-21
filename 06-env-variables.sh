@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Couse name is: $COURSE"
+COURSE=$COURSE
+echo "Course name is: $COURSE"
