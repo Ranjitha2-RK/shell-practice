@@ -12,11 +12,11 @@ if [ $USERID -ne 0 ]; then
   exit 1 # failure is other than 0
 fi
 
-dnf install mysql -y
+dnf install ngnix -y
 
 if [ $? -ne 0 ]; then
-  echo "ERROR:: Installing MySQL is failing"
+  echo "ERROR:: Installing Ngnix is failing"
   exit 1
 else
-  echo "Installing MySQL is success"
+  echo "Installing Ngnix is success"
 fi
