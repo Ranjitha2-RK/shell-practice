@@ -18,10 +18,10 @@ else
   echo "Installing MySQL is success"
 fi
 
-dnf install ngnix -y
+dnf install nginx -y
 
 if [ $? -ne 0 ]; then
-  echo "ERROR:: Installing Ngnix is failing"
+  echo "ERROR:: Installing Nginx is failing"
   exit 1
 else
   echo "Installing Ngnix is success"

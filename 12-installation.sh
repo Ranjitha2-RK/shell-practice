@@ -12,7 +12,7 @@ if [ $USERID -ne 0 ]; then
   exit 1 # failure is other than 0
 fi
 
-dnf install ngnix -y
+dnf install nginx -y
 
 if [ $? -ne 0 ]; then
   echo "ERROR:: Installing Ngnix is failing"
