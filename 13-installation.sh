@@ -24,14 +24,14 @@ if [ $? -ne 0 ]; then
   echo "ERROR:: Installing Nginx is failing"
   exit 1
 else
-  echo "Installing Ngnix is success"
+  echo "Installing Nginx is success"
 fi
 
-dnf instal mongodb-mongosh -y
+dnf instal python3 -y
 
 if [ $? -ne 0 ]; then
-  echo "ERROR:: Installing mongobd-mongosh is failing"
+  echo "ERROR:: Installing python3 is failing"
   exit 1
 else
-  echo "Installing mongodb-mongosh is success"
+  echo "Installing python3 is success"
 fi
