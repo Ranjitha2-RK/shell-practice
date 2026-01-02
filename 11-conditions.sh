@@ -5,6 +5,7 @@
 #take the number; divide by 2 and the get the reminder
 #if it is equal to 0 then it is even; otherwise it is odd
 
+
 echo "Please enter the number:"
 read NUMBER
 

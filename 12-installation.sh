@@ -3,6 +3,7 @@
 #Check if the user has root access or not; if root access then proceed; otherwise stop and tell them to run with root access
 # dnf install mysql -y
 #check exit status, if 0 success
+# echo$? => 0 - failure, 1-127 - Success
 #other wise shwo the user it is failed
 
 USERID=$(id -u)

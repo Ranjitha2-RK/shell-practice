@@ -27,7 +27,7 @@ VALIDATE(){ #functions receive input through args just like shell script args
   fi
 }
 
-# $*
+# $@	All arguments (separately), $*	All arguments (single string)
 
 for package in $@
 do

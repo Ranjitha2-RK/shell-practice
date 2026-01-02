@@ -8,7 +8,7 @@ NAME=DevOps
 SUM=$(($NUMBER1+$NUMBER2+$NAME))
 echo "SUM is: ${SUM}"
 
-#Arrays: List of names
+#Arrays: List of names, @ - list all the members
 #Size = 4, Max index = 3
 LEADERS=("Modi" "Putin" "Trump")
 
